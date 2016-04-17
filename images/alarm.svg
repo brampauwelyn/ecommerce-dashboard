@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>notification clock icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notification-icon" transform="translate(-8.000000, -10.000000)" fill="#FFFFFF">
+            <g id="notification-clock-icon">
+                <g transform="translate(8.000000, 10.000000)">
+                    <g id="Group">
+                        <path d="M10.4723684,24.8055556 C11.8263158,24.8055556 12.9315789,23.6944444 12.9315789,22.3333333 L8.01315789,22.3333333 C8.01315789,23.6944444 9.11842105,24.8055556 10.4723684,24.8055556 L10.4723684,24.8055556 Z M18.4026316,17.4166667 L18.4026316,10.6666667 C18.4026316,6.88888889 15.8052632,3.72222222 12.2960526,2.88888889 L12.2960526,2.05555556 C12.2960526,1.02777778 11.4671053,0.222222222 10.4723684,0.222222222 C9.47763158,0.222222222 8.64868421,1.05555556 8.64868421,2.05555556 L8.64868421,2.88888889 C5.13947368,3.72222222 2.54210526,6.88888889 2.54210526,10.6666667 L2.54210526,17.4166667 L0.0828947368,19.8888889 L0.0828947368,21.1111111 L20.8618421,21.1111111 L20.8618421,19.8888889 L18.4026316,17.4166667 L18.4026316,17.4166667 Z" id="notification-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
