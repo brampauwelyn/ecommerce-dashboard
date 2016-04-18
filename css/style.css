@@ -166,7 +166,11 @@ margin-right:5px;
 
 #avatar{
 margin-right:5px;
+background-image:url('https://images.unsplash.com/photo-1443180236447-432ea00e6ead?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fc5fc67c2801672e9fca128c55e61910');
+background-size: cover;
 }
+
+
 
 #avatar, #notification{
 margin-top:21px;
