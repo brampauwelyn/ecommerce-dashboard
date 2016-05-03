@@ -21,6 +21,9 @@
     <!-- jQuery -->
     <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
     
+    <!-- Chart JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.1/Chart.bundle.min.js"></script>
+    
     <!-- Script Datatable -->
     <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
     
@@ -78,59 +81,20 @@ Settings</a></li>
         </div>
         <div id=space></div>
         
-         <div id="add_form">
-        
-        <form action="" enctype="multipart/form-data">
-            
-            <fieldset>
-            <label for="description">Product description</label>
-            <input type="text" name="description" value="" id="description" placeholder="fill in your productdescription">     
-            </fieldset>
-           
-           <fieldset>
-                   <label for="category">Category</label>
-                  <select name="category" id="category">
-                      <option value="category1">category1</option>
-                      <option value="category2">category2</option>
-                      
-                  </select>
-                   
-           </fieldset>
-           
-           <fieldset>
-                 <label for="">Stock</label>
-               <input type="text">
-        
-            
-            
-            <label for="">Price</label>
-            <input type="text">
-            </fieldset>
-            
-            
-            <input type="file" class="inputfile" id="inputfile">
-            <label for="inputfile"><i class="fa fa-cloud-upload" aria-hidden="true"></i>Upload an image</label>
-            
-            <button type="submit" id="submit_product">submit product</button>
-            
-            
-            
-        </form>
+    
+         
+    <div id="cards">
         
         
         
-        
-        
+        <canvas id="myChart" width="400" height="100"></canvas>
+
         
     </div>
-
+          
           
        
     </div>
-    
-    
-   
-    
     
     
 </div>
