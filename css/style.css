@@ -254,5 +254,27 @@ color:#ffffff;
 
 
 
+td a:hover{
+text-decoration:none;
+}
+
+td .fa{
+color:#5D6BFC;
+font-size:24px;
+padding-right:8px;
+transition-property:color;
+transition-duration:.4s;
+}
+
+td .fa:hover{
+color:#0F73EE;
+}
+
+
+#tabel_filter{
+display:none;
+}
+
+
 
 
