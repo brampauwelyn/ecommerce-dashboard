@@ -42,26 +42,32 @@
     
 <div id="container">
     
-    
-    <div id="sidebar">
-        <img src="images/sidebar.jpg" alt="">
-        <div id="overlay"> 
-        <h1>Brandname</h1>
-        
-        <ul>
-            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Orders</a></li>
-            <li><a href="#"><i class="fa fa-tag" aria-hidden="true"></i>
-Products</a></li>    
-            <li><i class="fa fa-hashtag" aria-hidden="true"></i><a href="#">Categories</a></li>
-            <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>
+
+   <!-- SIDEBAR -->
+           <div id="sidebar">
+            <img src="images/sidebar.jpg" alt="">
+            <div id="overlay">
+                <h1>Brandname</h1>
+
+                <ul>
+                    <li><a href="overview.html" class="active"><i class="fa fa-pie-chart" aria-hidden="true"></i> Analytics</a></li>
+                    <li><a href="orders.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Orders</a></li>
+                    <li><a href="products.html"><i class="fa fa-tag" aria-hidden="true"></i>
+Products</a></li>
+                    <li><a href="categories.html"><i class="fa fa-hashtag" aria-hidden="true"></i> Categories</a></li>
+                    <li><a href="mail.html"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a></li>
+                    
+                    <li><a href="settings.html"><i class="fa fa-cog" aria-hidden="true"></i>
 Settings</a></li>
-            
-        </ul>
-        
+
+                </ul>
+
+            </div>
+
         </div>
-       
-    </div>
     
+    
+    <!-- CONTENT -->
     
     <div id="content">
     
@@ -86,8 +92,38 @@ Settings</a></li>
     <div id="cards">
         
         
+        <div id="card1" class="card">
+            
+            <h3>Today’s sales revenue</h3>
+            <div id="circle1" class="circle">
+                <span><i class="fa fa-usd" aria-hidden="true"></i></span>1.023
+            </div>
+            
+        </div>
         
-        <canvas id="myChart" width="400" height="100"></canvas>
+          <div id="card2" class="card">
+            
+            <h3>Items sold today</h3>
+            <div id="circle1" class="circle">
+                <span><i class="fa fa-tags" aria-hidden="true"></i></span>5
+            </div>
+            
+        </div>
+        
+          <div id="card3" class="card">
+            
+            <h3>Transactions today</h3>
+            <div id="circle1" class="circle">
+                <span><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span>1.023
+            </div>
+            
+        </div>
+        
+     
+             <canvas id="myChart" width="400" height="110"></canvas>
+            
+       
+      
 
         
     </div>
