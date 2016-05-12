@@ -59,15 +59,11 @@ font-size:20px;
 color:#514F4F;
 background-color:rgba(255,255,255,0.0);
 margin-bottom:40px;
-transition-property:border;
-transition-duration:.4s;
--webkit-transition-property:border;
--webkit-transition-duration:.4s;
+transition-property:border-color;
+transition-duration:1s;
+transition-delay:0.2s;
 }
 
-#login form input:focus{
-border:2px solid blue;
-}
 
 #login #button{
 display:block;
@@ -260,6 +256,12 @@ margin-bottom:20px;
 #search{
 outline:none;
 border:none;
+transition-property:width;
+transition-duration:.2s;
+}
+
+#search:focus{
+width:400px;
 }
 
 
@@ -274,7 +276,7 @@ td a:hover{
 text-decoration:none;
 }
 
-td .fa{
+.actions{
 color:#5D6BFC;
 font-size:24px;
 padding-right:8px;
@@ -282,7 +284,7 @@ transition-property:color;
 transition-duration:.4s;
 }
 
-td .fa:hover{
+.actions:hover{
 color:#0F73EE;
 }
 
@@ -291,6 +293,63 @@ color:#0F73EE;
 #tabel_filter{
 display:none;
 }
+
+.dataTables_filter{
+display:none;
+}
+
+.paid,.shipped{
+font-size:18px;
+margin-right:6px;
+}
+
+.paid{
+color:yellow;
+}
+
+.shipped{
+color:#86F417;
+}
+
+
+.triangle{
+width:25px;
+height:25px;
+position:absolute;
+background-color:rgba(93,107,252,1.0);
+right:15px;
+top:-10px;
+z-index:3;
+transform:rotate(45deg);
+}
+
+.pop-over{
+display:none;
+position:fixed;
+width:300px;
+height:200px;
+top:80px;
+right:15px;
+background-color:rgba(93,107,252,1.0);
+opacity:0.98;
+z-index:2;
+animation:popup .4s 1;
+}
+
+@keyframes popup {
+  0% {
+    width:0;
+    height:0;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.98;
+    width:300px;
+    height:200px;
+    
+  }
+}
+
 
 /***********
 SWEET ALERT

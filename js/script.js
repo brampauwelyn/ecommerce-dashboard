@@ -6,6 +6,12 @@ $(document).ready(function () {
 
 
     
+    //Show notification Pop-up
+    $("#notification").click(function(){
+        $(".pop-over").toggle();
+    });
+    
+    
     
     
     // Trigger sweet alert message when clicked on trash icon
@@ -28,7 +34,7 @@ $(document).ready(function () {
 
     })
     
-
+    
     
     
     //Trigger sweet aler when clicked on submit product on page add.php
@@ -44,13 +50,15 @@ $(document).ready(function () {
 
 
     // Makes the table searchable with the datatables plugin
-    searchTable = $('#tabel').DataTable({
+    searchTable = $('.table').DataTable({
         paging: false,
         ordering: false
     });
     $('#search').keyup(function () {
         searchTable.search($(this).val()).draw();
     })
+    
+    
 
 
 
